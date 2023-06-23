@@ -146,7 +146,6 @@ img{
 
 .nav_toggle{
     color: var(--second-color);
-    margin-right: 90px;
     font-size: 1.5rem;
     cursor: pointer;
 }
