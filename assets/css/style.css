@@ -119,7 +119,7 @@ img{
         position: fixed;
         right: -100%;
         top: var(--header-height) ;
-        width: 80%;
+        width: 100%;
         height: 100%;
         padding: 2rem;
         background-color: var(--second-color);
@@ -146,6 +146,7 @@ img{
 
 .nav_toggle{
     color: var(--second-color);
+    margin-right: 90px;
     font-size: 1.5rem;
     cursor: pointer;
 }
