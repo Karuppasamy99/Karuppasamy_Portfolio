@@ -430,7 +430,7 @@ img{
     }
 
     .nav{
-        height: calc(var(--header-height)+ 1rem);
+        height: calc(var(--header-height) + 1rem);
     }
     .nav_items{
         margin-left: var(--mb-6);
@@ -470,7 +470,7 @@ img{
     }
 
     .home_img{
-        width: 400px;
+        width: 460px;
         bottom: 15%;
     }
 
@@ -479,7 +479,7 @@ img{
     }
 
     .about_container, .skills_container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
     }
@@ -505,10 +505,6 @@ img{
 }
 
 @media screen and (min-width: 1024px){
-    .bd_grid{
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .home_img{
         right: 10%;
