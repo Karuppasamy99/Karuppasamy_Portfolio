@@ -282,6 +282,10 @@ img{
     border-radius: .5rem;
 }
 
+.about_text{
+    margin-bottom: 1rem;
+}
+
 /* skill */
 
 .skills_container{
@@ -419,6 +423,7 @@ img{
     body{
         margin: 0;
     }
+
     .section{
         padding-top: 4rem;
         padding-bottom: 3rem;
@@ -480,6 +485,7 @@ img{
     .home_img svg{
         width: 100%;
     }
+
 
     .about_container, .skills_container{
         grid-template-columns: repeat(2, 1fr);
