@@ -36,7 +36,7 @@ const sendMail = (e) => {
         To : "jagdishkannan0@gmail.com",
         From : "jagdishkannan0@gmail.com",
         Subject : "PortFolio",
-        Body : email.value +"/n"+ msg.value,
+        Body : email.value +"  "+ msg.value,
     }).then(
       message => alert(message)
     );
