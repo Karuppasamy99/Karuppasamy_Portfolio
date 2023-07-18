@@ -423,6 +423,10 @@ img{
     border-radius: 10px;
   }
 
+  .img_link{
+    color: white;
+  }
+
 /* contact */
 
 .control_input{
